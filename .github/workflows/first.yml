@@ -16,7 +16,7 @@ jobs:
             - name: run multilple lines
               run : |
                     echo
-                    "this is step1"
-                    "this is step2"
+                    running 
+                    running1
               
               
