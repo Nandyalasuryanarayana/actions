@@ -8,12 +8,15 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: running
-              run : this is step1
+              run : echo "this is step1"
             
             - name: running1
-              run : this is step2
+              run : echo "this is step2"
 
-            - name: run & 2
-              run : running | running1
+            - name: run multilple lines
+              run : |
+                    echo
+                    "this is step1"
+                    "this is step2"
               
               
