@@ -1,17 +1,15 @@
----
 name: my first workflow
 on: 
     push:
-        branch:
+        branches:
             main
 
 jobs:
     build:
-        runs_on: ubuntu-latest
+        runs-on: ubuntu-latest
         steps: 
             - name: reusable-action
               uses: actions/checkout@v3
-
             - name: text message to you
               run: echo "hii i improve"
 
