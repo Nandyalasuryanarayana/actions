@@ -15,8 +15,7 @@ jobs:
 
             - name: run multilple lines
               run : |
-                    echo
-                    running 
-                    running1
+                    echo running 
+                    echo running1
               
               
